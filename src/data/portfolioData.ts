@@ -65,7 +65,7 @@ export const site = {
   currentlyExploring: ['Data analysis', 'Machine learning basics', 'Web development', 'Problem solving'],
 
   /** Paths are relative to the public/ folder. Replace the files, keep the names. */
-  portrait: 'portrait.png',
+  portrait: 'public/assets/portrait.png',
   resume: 'Ujjaval_Pratap_singh_Resume.pdf',
 
   email: 'ujjwalpratapsingh624604@gmail.com', // e.g. 'you@example.com'
