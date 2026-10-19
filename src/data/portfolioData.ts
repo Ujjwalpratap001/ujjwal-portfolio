@@ -42,7 +42,7 @@ export interface JourneyItem {
 
 export const site = {
   name: 'Ujjwal Pratap Singh Yadav',
-  displayName: 'Ujjwal Pratap',
+  displayName: 'Ujjaval Pratap',
   headline: 'Curious by nature. Builder by choice.',
   subheadline:
     'Exploring the intersection of intelligent systems, software engineering, and creative problem-solving.',
@@ -68,7 +68,7 @@ export const site = {
   portrait: 'assets/portrait.png',
   resume: 'assets/resume.pdf',
 
-  email: '', // e.g. 'you@example.com'
+  email: 'pratap_ujjwal@icloud.com', // e.g. 'you@example.com'
 
   /**
    * Phone and WhatsApp. Use the international format: + country code + number, no spaces.
