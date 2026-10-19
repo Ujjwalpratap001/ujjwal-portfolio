@@ -41,7 +41,7 @@ export interface JourneyItem {
 }
 
 export const site = {
-  name: 'Ujjwal Pratap Singh Yadav',
+  name: 'Ujjaval Pratap Singh',
   displayName: 'Ujjaval Pratap',
   headline: 'Curious by nature. Builder by choice.',
   subheadline:
@@ -65,24 +65,24 @@ export const site = {
   currentlyExploring: ['Data analysis', 'Machine learning basics', 'Web development', 'Problem solving'],
 
   /** Paths are relative to the public/ folder. Replace the files, keep the names. */
-  portrait: 'assets/portrait.png',
-  resume: 'assets/resume.pdf',
+  portrait: 'portrait.png',
+  resume: 'Ujjaval_Pratap_singh_Resume.pdf',
 
-  email: 'pratap_ujjwal@icloud.com', // e.g. 'you@example.com'
+  email: 'ujjwalpratapsingh624604@gmail.com', // e.g. 'you@example.com'
 
   /**
    * Phone and WhatsApp. Use the international format: + country code + number, no spaces.
    * Example for India: '+919876543210'. Leave '' to hide the call, WhatsApp and phone options.
    * Remember: anything here is public on the internet, so only add a number you are happy to share.
    */
-  phone: '',
-  whatsapp: '', // leave '' to use the same number as phone
+  phone: '+917251925474',
+  whatsapp: '+917251925474', // leave '' to use the same number as phone
   whatsappMessage: 'Hi Ujjwal, I saw your portfolio and would like to connect.',
 
   links: {
-    github: { username: '' }, // e.g. 'octocat'  -> enables the live GitHub section
-    leetcode: { username: '' }, // e.g. 'your_leetcode_name' -> enables live LeetCode stats
-    linkedin: { url: '' }, // e.g. 'https://www.linkedin.com/in/your-id/'
+    github: { username: 'Ujjwalpratap001' }, // e.g. 'octocat'  -> enables the live GitHub section
+    leetcode: { username: 'ujjavalpratap' }, // e.g. 'your_leetcode_name' -> enables live LeetCode stats
+    linkedin: { url: 'https://www.linkedin.com/in/ujjwalpratap624604/' }, // e.g. 'https://www.linkedin.com/in/your-id/'
     extra: [] as { label: string; url: string }[], // e.g. [{ label: 'Kaggle', url: 'https://...' }]
   },
 
@@ -175,10 +175,10 @@ export const projects: Project[] = [
       'A student-focused exam preparation platform designed to help GLA University students practice subject-wise quizzes through a simple and accessible interface.',
     category: 'Education web app',
     stack: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    image: '',
+    image: 'examprep.png',
     mockup: 'quiz',
     github: '', // paste your repository link
-    live: '', // paste your deployed link
+    live: 'https://gla-examprep.web.app/#authSection', // paste your deployed link
     status: 'In development',
     featured: true,
     features: [
@@ -197,11 +197,11 @@ export const projects: Project[] = [
       'A wallpaper platform focused on discovering, showcasing, and sharing high-quality visual content through a modern interface.',
     category: 'Media web app',
     stack: [], // add the technologies you used, for example ['HTML', 'CSS', 'JavaScript', 'Firebase']
-    image: '',
+    image: 'wallora',
     mockup: 'gallery',
     github: '',
-    live: '',
-    status: 'In development',
+    live: 'https://wallora-pratap.web.app/',
+    status: 'Live',
     featured: true,
     features: [
       { label: 'Wallpaper categories', state: 'built' },
