@@ -1,3 +1,5 @@
+import LeetCodeActivity from "./components/LeetCodeActivity";
+import MonkeytypeCard from "./components/MonkeytypeCard";
 import { useState } from 'react';
 import Nav from './components/Nav';
 import Intro from './components/Intro';
@@ -5,7 +7,7 @@ import Cursor from './components/Cursor';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import GitHubActivity from './sections/GitHubActivity';
-import LeetCodeProgress from './sections/LeetCodeProgress';
+//import LeetCodeProgress from './sections/LeetCodeProgress';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 import Journey from './sections/Journey';
@@ -59,7 +61,8 @@ export default function App() {
         <Projects />
         <Skills />
         <GitHubActivity />
-        <LeetCodeProgress />
+        <LeetCodeActivity />
+        <MonkeytypeCard />
         <Journey />
         <Certificates />
         <LinkedInCard />
