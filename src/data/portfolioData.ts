@@ -166,6 +166,7 @@ export const skillGroups: SkillGroup[] = [
  * Feature states: 'built' (works today), 'in-progress' (being built), 'planned' (not started).
  * Only mark something 'built' if it really works. Add the technologies you actually used.
  */
+
 export const projects: Project[] = [
   {
     id: 'gla-examprep',
@@ -177,16 +178,22 @@ export const projects: Project[] = [
     stack: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
     image: 'examprep.png',
     mockup: 'quiz',
-    github: '', // paste your repository link
-    live: 'https://gla-examprep.web.app/#authSection', // paste your deployed link
+    github: '',
+    live: 'https://gla-examprep.web.app/#authSection',
     status: 'In development',
     featured: true,
     features: [
       { label: 'Subject-wise quizzes', state: 'in-progress' },
       { label: 'Quiz search and navigation', state: 'planned' },
-      { label: 'Firebase sign-in with Google and email/password', state: 'planned' },
+      {
+        label: 'Firebase sign-in with Google and email/password',
+        state: 'planned',
+      },
       { label: 'Student profiles', state: 'planned' },
-      { label: 'Admin portal to manage subjects and quizzes', state: 'planned' },
+      {
+        label: 'Admin portal to manage subjects and quizzes',
+        state: 'planned',
+      },
     ],
   },
   {
@@ -196,7 +203,7 @@ export const projects: Project[] = [
     description:
       'A wallpaper platform focused on discovering, showcasing, and sharing high-quality visual content through a modern interface.',
     category: 'Media web app',
-    stack: [], // add the technologies you used, for example ['HTML', 'CSS', 'JavaScript', 'Firebase']
+    stack: ['React', 'Firebase'],
     image: 'wallora',
     mockup: 'gallery',
     github: '',
@@ -210,7 +217,29 @@ export const projects: Project[] = [
       { label: 'Google sign-in', state: 'built' },
     ],
   },
+  {
+    id: 'mini-car-game',
+    title: 'Mini Car Racing Game',
+    tagline: 'Race. React. Repeat.',
+    description:
+      'A browser-based car racing game built as a mini project, featuring interactive driving controls and a visual racing experience. Published using GitHub Pages.',
+    category: 'Browser game',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Three.js'],
+    image: 'mini-car-game',
+    mockup: 'game',
+    github: 'https://github.com/UjjwalPratap001/mini-car-game',
+    live: 'https://ujjwalpratap001.github.io/mini-car-game/',
+    status: 'Live',
+    featured: true,
+    features: [
+      { label: 'Browser-based gameplay', state: 'built' },
+      { label: 'Keyboard driving controls', state: 'built' },
+      { label: 'Interactive racing experience', state: 'built' },
+      { label: 'GitHub Pages deployment', state: 'built' },
+    ],
+  },
 ];
+
 
 /** Used in About (education + learning) and Journey (projects, experience, events). */
 export const journey: JourneyItem[] = [
