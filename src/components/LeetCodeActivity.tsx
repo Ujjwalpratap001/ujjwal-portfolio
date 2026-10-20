@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./ActivityCards.css";
 
 // Yahan apna LeetCode username daalo
-const LEETCODE_USERNAME = "YOUR_LEETCODE_USERNAME";
+const LEETCODE_USERNAME = "ujjavalpratap";
 
 type Calendar = Record<string, number>;
 
