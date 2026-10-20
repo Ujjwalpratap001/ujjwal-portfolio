@@ -1,0 +1,126 @@
+.act-card {
+  background: #111113;
+  border: 1px solid rgba(246, 243, 240, 0.1);
+  border-radius: 14px;
+  padding: 24px;
+  margin: 24px 0;
+  color: #f6f3f0;
+}
+
+.act-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.act-head h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.act-head a,
+.act-note a {
+  color: #ff6a2b;
+  text-decoration: none;
+}
+
+.act-head a:hover,
+.act-note a:hover {
+  text-decoration: underline;
+}
+
+.act-note {
+  color: #a4a0a0;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.act-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+}
+
+.act-stats strong {
+  display: block;
+  font-size: 1.7rem;
+  color: #ff3b24;
+  line-height: 1.1;
+}
+
+.act-stats span {
+  color: #a4a0a0;
+  font-size: 0.85rem;
+}
+
+/* LeetCode heatmap */
+.heatmap-scroll {
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.heatmap {
+  display: flex;
+  gap: 3px;
+  width: max-content;
+}
+
+.heatmap-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cell {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.cell.l0 { background: #1c1c20; }
+.cell.l1 { background: #4a1a14; }
+.cell.l2 { background: #8f2a1a; }
+.cell.l3 { background: #ff6a2b; }
+.cell.l4 { background: #ff3b24; }
+.cell.future { background: transparent; }
+
+/* Monkeytype personal bests */
+.mt-bests {
+  margin-top: 20px;
+}
+
+.mt-bests h4 {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #a4a0a0;
+  font-weight: 500;
+}
+
+.mt-bests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+}
+
+.mt-bests-grid > div {
+  background: #080809;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.mt-bests-grid strong {
+  display: block;
+  font-size: 1.8rem;
+  color: #f6f3f0;
+}
+
+.mt-label,
+.mt-acc {
+  display: block;
+  font-size: 0.8rem;
+  color: #a4a0a0;
+}
