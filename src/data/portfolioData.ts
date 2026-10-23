@@ -176,7 +176,7 @@ export const projects: Project[] = [
       'A student-focused exam preparation platform designed to help GLA University students practice subject-wise quizzes through a simple and accessible interface.',
     category: 'Education web app',
     stack: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    image: 'examprep.png',
+    image: 'assets/projects/examprep.png',
     mockup: 'quiz',
     github: '',
     live: 'https://gla-examprep.web.app/#authSection',
