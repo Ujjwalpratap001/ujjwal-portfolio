@@ -1,5 +1,12 @@
 # Ujjwal Pratap – Developer Portfolio
 
+<p align="center">
+  <a href="https://ujjwalpratap001.github.io/ujjwal-portfolio/">
+    <strong>🌐 Visit Live Portfolio</strong>
+  </a>
+</p>
+
+
 The source code for **Ujjwal Pratap’s personal developer portfolio**, built to present his projects, technical interests, learning journey, and professional profile in one place. Ujjwal is a B.Tech Computer Science Engineering student at GLA University, Mathura, Uttar Pradesh, and CEO of AP Creative Studio.
 
 ## Portfolio overview
@@ -67,6 +74,7 @@ Review all public contact details, links, skill levels, and project status befor
 
 - GitHub: [Ujjwalpratap001](https://github.com/Ujjwalpratap001)
 - LinkedIn: [Ujjwal Pratap](https://www.linkedin.com/in/ujjwalpratap624604/)
+- Live Portfolio: [ujjwalpratap001.github.io/ujjwal-portfolio](https://ujjwalpratap001.github.io/ujjwal-portfolio/)
 - Portfolio source: [This repository](https://github.com/Ujjwalpratap001/ujjwal-portfolio)
 
 ## Project scope
